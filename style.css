@@ -1,0 +1,16 @@
+
+.statut-ok {
+    background-color: lightgreen;
+}
+
+.statut-entretien {
+    background-color: lightyellow;
+}
+
+.statut-candidature {
+    background-color: lightblue;
+}
+
+.statut-attente {
+    background-color: lightgray;
+}

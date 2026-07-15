@@ -28,10 +28,31 @@
 
 		<br><br>
 
+<label for="classe">Classe :</label>
+
+	<select name="classe" id="classe" required>
+		<option value="">-- Choisir une classe --</option>
+		<option value="SIO1">SIO1</option>
+		<option value="SIO2">SIO2</option>
+	</select>
+
+	<label for="statut_stage">Situation de stage :</label>
+
+	<select name="statut_stage" id="statut_stage" required>
+		<option value="">-- Choisir un statut --</option>
+		<option value="Non commencé">Non commencé</option>
+		<option value="En recherche">En recherche</option>
+		<option value="Candidature envoyée">Candidature envoyée</option>
+		<option value="Entretien obtenu">Entretien obtenu</option>
+		<option value="Stage trouvé">Stage trouvé</option>
+	</select>
+
 		<button type="submit">Envoyer</button>
 	</form>
 
 	<p><a href="liste.php">Voir la liste des étudiants</a></p>
+
+	
 
 </body>
 </html>
